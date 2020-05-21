@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.businessapplicationdevelopment">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Pattern_AbbKey_Screen"></activity>
+        <activity android:name=".Yarn_Collection_Screen" />
+        <activity android:name=".Additional_Materials_Screen" />
+        <activity android:name=".Contact_Screen" />
+        <activity android:name=".Settings_Screen" />
+        <activity android:name=".Video_Tutorials_Screen" />
+        <activity android:name=".Ravelry_Screen" />
+        <activity android:name=".Local_PDFs_Screen" />
+        <activity android:name=".Projects_Screen" />
+        <activity android:name=".PDFs_Screen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
