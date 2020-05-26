@@ -11,4 +11,6 @@
     <string name="Ravelry"> Ravelry </string>
     <string name="Y_collection"> Yarn Collection </string>
     <string name="PatternKAbv"> Pattern Key Abbreviation </string>
+    <string name="this_knit">This is a knit</string>
+
 </resources>
