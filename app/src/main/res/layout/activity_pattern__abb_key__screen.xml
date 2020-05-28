@@ -7,13 +7,23 @@
     android:background="@color/Background"
     tools:context=".Pattern_AbbKey_Screen">
 
-    <TextView
-        android:id="@+id/knitTest"
-        android:layout_width="117dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="144dp"
-        android:text="@string/this_knit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/knitTest"
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/this_knit"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
