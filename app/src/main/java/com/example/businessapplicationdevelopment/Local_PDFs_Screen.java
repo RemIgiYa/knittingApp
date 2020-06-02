@@ -58,7 +58,7 @@ public class Local_PDFs_Screen extends AppCompatActivity {
 
     private static final int PERMISSIONS_COUNT =2;
 
-    private static final int REQUEST_PERMISSIONS = 1234;
+    private static final int REQUEST_PERMISSION = 12;
 
     @SuppressLint("NewApi")
     @Override
@@ -67,7 +67,7 @@ public class Local_PDFs_Screen extends AppCompatActivity {
 
         if(notPermissions()){
 
-            requestPermissions(PERMISSIONS, REQUEST_PERMISSIONS);
+            requestPermissions(PERMISSIONS, REQUEST_PERMISSION);
         }
         else{
             loadData();
@@ -77,7 +77,7 @@ public class Local_PDFs_Screen extends AppCompatActivity {
     private boolean notPermissions(){
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
             int permissionPtr = 0;
-            while(permissionPtr<PERMISSIONS_COUNT){
+            while(permissionPtr < PERMISSIONS_COUNT){
 
                 if(checkSelfPermission(PERMISSIONS[permissionPtr])!= PackageManager.PERMISSION_GRANTED){
                     return true;
@@ -92,13 +92,16 @@ public class Local_PDFs_Screen extends AppCompatActivity {
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults){
 
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if(requestCode == REQUEST_PERMISSIONS && grantResults.length>0){
+        if(requestCode == REQUEST_PERMISSION && grantResults.length>0){
 
-            ((ActivityManager) this.getSystemService(ACTIVITY_SERVICE)).clearApplicationUserData();
-            recreate();
-        }
-        else{
-            loadData();
+            if(notPermissions()){
+
+                ((ActivityManager) this.getSystemService(ACTIVITY_SERVICE)).clearApplicationUserData();
+                recreate();
+            }
+            else{
+                loadData();
+            }
         }
     }
 
