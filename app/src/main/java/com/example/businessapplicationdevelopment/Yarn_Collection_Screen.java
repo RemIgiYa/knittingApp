@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -53,6 +55,7 @@ public class Yarn_Collection_Screen extends AppCompatActivity {
                             public void onClick(DialogInterface dialog, int which) {
                                 list.remove(position);
                                 adapter.setData(list);
+                                saveInfo();
                             }
                         })
                         .setNegativeButton("No", null)
@@ -72,28 +75,46 @@ public class Yarn_Collection_Screen extends AppCompatActivity {
                 final EditText itemInput = new EditText(Yarn_Collection_Screen.this);
                 itemInput.setSingleLine();
                 AlertDialog dialog = new AlertDialog.Builder(Yarn_Collection_Screen.this)
-                        .setTitle("Add a new Item")
-                        .setMessage("Enter the new item")
+                        .setTitle("Add a new Item?")
+                        .setMessage("One thing at a time you'll be able to fill the whole world so don't give up!")
                         .setView(itemInput)
-                        .setPositiveButton("Add", new DialogInterface.OnClickListener() {
+                        .setPositiveButton("Let's go!", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 list.add(itemInput.getText().toString());
                                 adapter.setData((list));
+                                saveInfo();
                             }
                         })
-                        .setNegativeButton("Cancel", null)
+                        .setNegativeButton("Oh, Hell no.", null)
                         .create();
                 dialog.show();
             }
         });
 
-    }
+        final Button deleteAllItemsButton = findViewById(R.id.deleteAllItemsButton);
 
-    @Override
-    protected void onPause(){
-        super.onPause();
-        saveInfo();
+        deleteAllItemsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                AlertDialog dialog = new AlertDialog.Builder(Yarn_Collection_Screen.this)
+                        .setTitle("Delete all Items?")
+                        .setMessage("Unlike your dirty past, this list can be wiped out - removed completely with no point of return. Proceed?")
+                        .setPositiveButton("Kill them all!", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                list.clear();
+                                adapter.setData(list);
+                                saveInfo();
+                            }
+                        })
+                        .setNegativeButton("...No?", null)
+                        .create();
+                dialog.show();
+            }
+        });
+
     }
 
     private void saveInfo(){
@@ -162,12 +183,21 @@ public class Yarn_Collection_Screen extends AppCompatActivity {
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent){
-            LayoutInflater inflater = (LayoutInflater)
-                    Yarn_Collection_Screen.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            View rowView = inflater.inflate(R.layout.item2, parent, false);
-            TextView textView = rowView.findViewById(R.id.task);
+            if (convertView==null){
+                LayoutInflater inflater = (LayoutInflater)
+                        Yarn_Collection_Screen.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                convertView = inflater.inflate(R.layout.item2, parent, false);
+            }
+            TextView textView = convertView.findViewById(R.id.task);
+            if(position%2==0){
+                textView.setBackgroundColor(Color.rgb(206, 191, 245));
+                textView.setTextColor(Color.BLACK);
+            }
+            else{
+                textView.setBackgroundColor(Color.WHITE);
+            }
             textView.setText(list.get(position));
-            return rowView;
+            return convertView;
         }
     }
 }

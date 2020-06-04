@@ -7,12 +7,26 @@
     android:background="@color/Background"
     tools:context=".Yarn_Collection_Screen">
 
-    <Button
-        android:id="@+id/newItemButton"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Add New"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/newItemButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Add New"
         />
+        <Button
+            android:id="@+id/deleteAllItemsButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Clear Items"
+            />
+    </LinearLayout>
+
 
     <ListView
         android:id="@+id/listView"
