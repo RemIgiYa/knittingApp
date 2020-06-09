@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -18,7 +19,18 @@
         <activity android:name=".Contact_Screen" />
         <activity android:name=".Settings_Screen" />
         <activity android:name=".Video_Tutorials_Screen" />
-        <activity android:name=".Ravelry_Screen" />
+        <activity android:name=".Ravelry_Screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="callback"
+                    android:scheme="com.example.businessapplicationdevelopment" />
+            </intent-filter>
+    </activity>
         <activity android:name=".Local_PDFs_Screen" android:screenOrientation="portrait"/>
         <activity android:name=".Projects_Screen" />
         <activity android:name=".PDFs_Screen" />
