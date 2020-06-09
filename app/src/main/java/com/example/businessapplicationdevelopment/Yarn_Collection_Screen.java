@@ -26,6 +26,8 @@ import java.io.FileOutputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Yarn_Collection_Screen extends AppCompatActivity {
@@ -114,6 +116,22 @@ public class Yarn_Collection_Screen extends AppCompatActivity {
                 dialog.show();
             }
         });
+
+        Button buttonSort = findViewById(R.id.buttonSort);
+        buttonSort.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sortArrayList();
+                adapter.setData(list);
+                saveInfo();
+            }
+        });
+
+    }
+
+    private void sortArrayList(){
+
+        Collections.sort(list, String.CASE_INSENSITIVE_ORDER);
 
     }
 
