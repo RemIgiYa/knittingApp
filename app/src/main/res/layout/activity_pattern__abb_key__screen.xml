@@ -18,9 +18,16 @@
 
             <TextView
                 android:id="@+id/knitTest"
-                android:layout_width="384dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:padding="12dp"
+                android:paddingStart="12dp"
+                android:paddingLeft="12dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="12dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="12dp"
                 android:text="@string/this_knit"
                 android:textSize="24sp" />
         </LinearLayout>
