@@ -12,5 +12,9 @@
     <string name="Y_collection"> Yarn Collection </string>
     <string name="PatternKAbv"> Pattern Key Abbreviation </string>
     <string name="this_knit">CO: Cast on stitches\nk1: knit 1 \np1: purl 1\nk2tog: knit 2 together\np2tog: purl 2 together\nSt st: stockinette stitch\nssk: slip 1 stitch, slip 1 stitch, knit those stitches through the back of the stitch\n**: repeat the sequence as many times as written on the pattern\np3tog: purl 3 together\nslwif: Slip 1 stitch with yarn in front\nm1: Make 1 stitch\nm1p: Make 1 stitch purlwise\nkfb: Knit the front of the stitch and the back of the stitch\nyo: yarn over\nRS: Right side of the work\nWS: Wrong side of the work\npm: Place marker\nsm: Slide marker </string>
+    <string name="To" >To</string>
+    <string name="Subject" >Subject</string>
+    <string name="Message" >Your Message</string>
+    <string name="Send" >Send</string>
 
 </resources>
