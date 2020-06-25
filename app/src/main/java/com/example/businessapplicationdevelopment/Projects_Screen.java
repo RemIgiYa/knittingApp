@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.businessapplicationdevelopment.projectNotes.*;
@@ -18,12 +19,15 @@ import java.util.ArrayList;
 
 public class Projects_Screen extends AppCompatActivity {
     private ListView mNotes;
+    private int mCount;
+    private TextView mRowCounter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_projects__screen);
         mNotes = (ListView) findViewById(R.id.noteView);
+        mRowCounter = (TextView) findViewById(R.id.rowCounter1);
     }
 
     @Override
@@ -69,4 +73,13 @@ public class Projects_Screen extends AppCompatActivity {
         }
 
     }
+
+    public void countUp(View view) {
+        mCount++;
+        if (mRowCounter != null) {
+            mRowCounter.setText(Integer.toString(mCount));
+        }
+    }
+
+
 }

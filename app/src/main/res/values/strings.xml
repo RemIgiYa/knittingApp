@@ -28,5 +28,6 @@
     <string name="add_new">Add New</string>
     <string name="clear_items">Clear Items</string>
     <string name="sort">sort</string>
+    <string name="counter">0</string>
 
 </resources>

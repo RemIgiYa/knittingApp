@@ -10,8 +10,13 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c97229a-263b-440c-8102-f96d5d226310" name="Default Changelist" comment="added note features">
+    <list default="true" id="7c97229a-263b-440c-8102-f96d5d226310" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/businessapplicationdevelopment/Projects_Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/businessapplicationdevelopment/Projects_Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_projects__screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_projects__screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/note_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/note_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +119,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../androidAppPractice/HelloToast" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunManager">
@@ -223,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593092905580</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added the note features again because it didnt add">
+      <created>1593093240701</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593093240701</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,7 +257,8 @@
     <MESSAGE value="added padding to pattern key page" />
     <MESSAGE value="tiny updates 2" />
     <MESSAGE value="added note features" />
-    <option name="LAST_COMMIT_MESSAGE" value="added note features" />
+    <MESSAGE value="added the note features again because it didnt add" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the note features again because it didnt add" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -261,14 +274,18 @@
       <screen x="0" y="30" width="1366" height="714" />
     </state>
     <state x="266" y="146" width="830" height="481" key="AndroidCreateResourceFileDialog/0.30.1366.714@0.30.1366.714" timestamp="1591721279283" />
-    <state x="541" y="204" width="280" height="366" key="AndroidCreateXmlResourceDialog" timestamp="1593092506653">
+    <state x="541" y="204" width="280" height="366" key="AndroidCreateXmlResourceDialog" timestamp="1593100657351">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
-    <state x="541" y="204" width="280" height="366" key="AndroidCreateXmlResourceDialog/0.30.1366.714@0.30.1366.714" timestamp="1593092506653" />
-    <state x="10" y="30" width="1341" height="711" key="CommitChangelistDialog2" timestamp="1593093167970">
+    <state x="541" y="204" width="280" height="366" key="AndroidCreateXmlResourceDialog/0.30.1366.714@0.30.1366.714" timestamp="1593100657351" />
+    <state x="10" y="30" width="1341" height="711" key="CommitChangelistDialog2" timestamp="1593093240623">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
-    <state x="10" y="30" width="1341" height="711" key="CommitChangelistDialog2/0.30.1366.714@0.30.1366.714" timestamp="1593093167970" />
+    <state x="10" y="30" width="1341" height="711" key="CommitChangelistDialog2/0.30.1366.714@0.30.1366.714" timestamp="1593093240623" />
+    <state x="466" y="146" width="430" height="481" key="FileChooserDialogImpl" timestamp="1593099781840">
+      <screen x="0" y="30" width="1366" height="714" />
+    </state>
+    <state x="466" y="146" width="430" height="481" key="FileChooserDialogImpl/0.30.1366.714@0.30.1366.714" timestamp="1593099781840" />
     <state width="1320" height="210" key="GridCell.Tab.0.bottom" timestamp="1591888845543">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
@@ -309,13 +326,13 @@
       <screen x="0" y="30" width="1366" height="714" />
     </state>
     <state x="396" y="107" width="834" height="560" key="MultipleFileMergeDialog/0.30.1366.714@0.30.1366.714" timestamp="1593090642117" />
-    <state x="278" y="124" width="806" height="525" key="Vcs.Push.Dialog.v2" timestamp="1593092912200">
+    <state x="278" y="124" width="806" height="525" key="Vcs.Push.Dialog.v2" timestamp="1593093252799">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
-    <state x="278" y="124" width="806" height="525" key="Vcs.Push.Dialog.v2/0.30.1366.714@0.30.1366.714" timestamp="1593092912200" />
-    <state x="406" y="182" width="553" height="409" key="git4idea.merge.GitPullDialog" timestamp="1593092927032">
+    <state x="278" y="124" width="806" height="525" key="Vcs.Push.Dialog.v2/0.30.1366.714@0.30.1366.714" timestamp="1593093252799" />
+    <state x="406" y="182" width="553" height="409" key="git4idea.merge.GitPullDialog" timestamp="1593093263014">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
-    <state x="406" y="182" width="553" height="409" key="git4idea.merge.GitPullDialog/0.30.1366.714@0.30.1366.714" timestamp="1593092927032" />
+    <state x="406" y="182" width="553" height="409" key="git4idea.merge.GitPullDialog/0.30.1366.714@0.30.1366.714" timestamp="1593093263014" />
   </component>
 </project>
