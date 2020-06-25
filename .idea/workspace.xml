@@ -10,15 +10,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c97229a-263b-440c-8102-f96d5d226310" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+    <list default="true" id="7c97229a-263b-440c-8102-f96d5d226310" name="Default Changelist" comment="added note features">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/businessapplicationdevelopment/Projects_Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/businessapplicationdevelopment/Projects_Screen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_projects__screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_projects__screen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_yarn__collection__screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_yarn__collection__screen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593090802554</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added note features">
+      <created>1593092905580</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593092905580</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +244,8 @@
     <MESSAGE value="forgot one of the files" />
     <MESSAGE value="added padding to pattern key page" />
     <MESSAGE value="tiny updates 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="tiny updates 2" />
+    <MESSAGE value="added note features" />
+    <option name="LAST_COMMIT_MESSAGE" value="added note features" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -264,10 +265,10 @@
       <screen x="0" y="30" width="1366" height="714" />
     </state>
     <state x="541" y="204" width="280" height="366" key="AndroidCreateXmlResourceDialog/0.30.1366.714@0.30.1366.714" timestamp="1593092506653" />
-    <state x="10" y="30" width="1341" height="711" key="CommitChangelistDialog2" timestamp="1593090802357">
+    <state x="10" y="30" width="1341" height="711" key="CommitChangelistDialog2" timestamp="1593093167970">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
-    <state x="10" y="30" width="1341" height="711" key="CommitChangelistDialog2/0.30.1366.714@0.30.1366.714" timestamp="1593090802357" />
+    <state x="10" y="30" width="1341" height="711" key="CommitChangelistDialog2/0.30.1366.714@0.30.1366.714" timestamp="1593093167970" />
     <state width="1320" height="210" key="GridCell.Tab.0.bottom" timestamp="1591888845543">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
@@ -308,13 +309,13 @@
       <screen x="0" y="30" width="1366" height="714" />
     </state>
     <state x="396" y="107" width="834" height="560" key="MultipleFileMergeDialog/0.30.1366.714@0.30.1366.714" timestamp="1593090642117" />
-    <state x="278" y="124" width="806" height="525" key="Vcs.Push.Dialog.v2" timestamp="1593090809521">
+    <state x="278" y="124" width="806" height="525" key="Vcs.Push.Dialog.v2" timestamp="1593092912200">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
-    <state x="278" y="124" width="806" height="525" key="Vcs.Push.Dialog.v2/0.30.1366.714@0.30.1366.714" timestamp="1593090809521" />
-    <state x="406" y="182" width="549" height="409" key="git4idea.merge.GitPullDialog" timestamp="1593090843158">
+    <state x="278" y="124" width="806" height="525" key="Vcs.Push.Dialog.v2/0.30.1366.714@0.30.1366.714" timestamp="1593092912200" />
+    <state x="406" y="182" width="553" height="409" key="git4idea.merge.GitPullDialog" timestamp="1593092927032">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
-    <state x="406" y="182" width="549" height="409" key="git4idea.merge.GitPullDialog/0.30.1366.714@0.30.1366.714" timestamp="1593090843158" />
+    <state x="406" y="182" width="553" height="409" key="git4idea.merge.GitPullDialog/0.30.1366.714@0.30.1366.714" timestamp="1593092927032" />
   </component>
 </project>
