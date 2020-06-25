@@ -16,5 +16,6 @@
     <string name="Subject" >Subject</string>
     <string name="Message" >Your Message</string>
     <string name="Send" >Send</string>
+    <string name="login">login</string>
 
 </resources>
