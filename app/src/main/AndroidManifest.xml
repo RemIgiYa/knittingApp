@@ -33,6 +33,7 @@
     </activity>
         <activity android:name=".Local_PDFs_Screen" android:screenOrientation="portrait"/>
         <activity android:name=".Projects_Screen" />
+        <activity android:name=".projectNotes.NoteActivity" />
         <activity android:name=".PDFs_Screen" />
         <activity android:name=".MainActivity" android:screenOrientation="portrait">
             <intent-filter>

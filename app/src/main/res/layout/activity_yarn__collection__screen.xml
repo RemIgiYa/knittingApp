@@ -16,14 +16,14 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Add New"
+            android:text="@string/add_new"
         />
         <Button
             android:id="@+id/deleteAllItemsButton"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Clear Items"
+            android:text="@string/clear_items"
             />
     </LinearLayout>
 
@@ -39,6 +39,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="sort"/>
+        android:text="@string/sort" />
 
 </LinearLayout>
