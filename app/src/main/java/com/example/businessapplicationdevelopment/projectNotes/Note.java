@@ -43,7 +43,7 @@ public class Note implements Serializable {
     }
 
     public String dateTimeAsString(Context context) {
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/mm/yyyy hh:mm:ss", context.getResources().getConfiguration().locale);
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/YYYY hh:mm:ss", context.getResources().getConfiguration().locale);
         simpleDateFormat.setTimeZone(TimeZone.getDefault());
         return simpleDateFormat.format(new Date(mDateTime));
     }
