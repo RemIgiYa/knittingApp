@@ -36,4 +36,5 @@ dependencies {
 
 
     implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5'
 }
