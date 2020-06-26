@@ -8,55 +8,68 @@
     android:orientation="vertical"
     tools:context=".Video_Tutorials_Screen">
 
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_height="match_parent">
 
-        app:videoId="1vm6oaYzHyA"
-        app:autoPlay="false"
-        app:showYouTubeButton="false"
-        />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
 
-        app:videoId="Egp4NRhlMDg"
-        app:autoPlay="false"
-        app:showYouTubeButton="false"
-        />
+                app:videoId="1vm6oaYzHyA"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                />
 
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
 
-        app:videoId="VSwjIUiQZlM"
-        app:autoPlay="false"
-        app:showYouTubeButton="false"
-        />
+                app:videoId="Egp4NRhlMDg"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                />
 
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
 
-        app:videoId="QySkiceyK2A"
-        app:autoPlay="false"
-        app:showYouTubeButton="false"
-        />
+                app:videoId="VSwjIUiQZlM"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                />
 
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
 
-        app:videoId="s6Kgi6ns38c"
-        app:autoPlay="false"
-        app:showYouTubeButton="false"
-        />
+                app:videoId="QySkiceyK2A"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+
+                app:videoId="s6Kgi6ns38c"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 
 
