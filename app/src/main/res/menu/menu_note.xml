@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/backgroundcolor">
     <item
         android:enabled="true"
         android:title="@string/save"
         android:id="@+id/main_save_note"
         android:icon="@android:drawable/ic_menu_save"
         android:orderInCategory="0"
-        app:showAsAction="always" />
+        app:showAsAction="always"
+        android:textColor="?attr/textcolor"/>
 
     <item
         android:enabled="true"
@@ -15,5 +17,6 @@
         android:id="@+id/main_delete_note"
         android:icon="@android:drawable/ic_menu_delete"
         android:orderInCategory="0"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom"
+        android:textColor="?attr/textcolor"/>
 </menu>

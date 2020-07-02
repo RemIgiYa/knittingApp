@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Background"
+    android:background="?attr/backgroundcolor"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:orientation="vertical"
@@ -13,13 +13,17 @@
         android:id="@+id/To"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/To" />
+        android:hint="@string/To"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/tintcolor"/>
 
     <EditText
         android:id="@+id/Subject"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/Subject" />
+        android:hint="@string/Subject"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/tintcolor"/>
 
     <EditText
         android:id="@+id/Message"
@@ -27,13 +31,17 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="top"
-        android:hint="@string/Message" />
+        android:hint="@string/Message"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/tintcolor"/>
 
     <Button
         android:id="@+id/btnSend"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
-        android:text="@string/Send" />
+        android:text="@string/Send"
+        android:textColor="?attr/textcolor"
+        android:background="?attr/buttoncolor"/>
 
 </LinearLayout>

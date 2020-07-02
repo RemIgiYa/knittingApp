@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Background"
+    android:background="?attr/backgroundcolor"
     tools:context=".Yarn_Collection_Screen">
 
     <LinearLayout
@@ -17,6 +17,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/add_new"
+            android:background="@drawable/btn_shape"
+            android:layout_margin="5dp"
+            android:textColor="?attr/textcolor"
         />
         <Button
             android:id="@+id/deleteAllItemsButton"
@@ -24,6 +27,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/clear_items"
+            android:background="@drawable/btn_shape"
+            android:layout_margin="5dp"
+            android:textColor="?attr/textcolor"
             />
     </LinearLayout>
 
@@ -32,13 +38,17 @@
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:textColor="?attr/textcolor"/>
 
     <Button
         android:id="@+id/buttonSort"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/sort" />
+        android:text="@string/sort"
+        android:background="@drawable/btn_shape"
+        android:layout_margin="5dp"
+        android:textColor="?attr/textcolor"/>
 
 </LinearLayout>

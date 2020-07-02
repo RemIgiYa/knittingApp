@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Background"
+    android:background="?attr/backgroundcolor"
     tools:context=".Pattern_AbbKey_Screen">
 
     <ScrollView
@@ -29,7 +29,8 @@
                 android:paddingRight="12dp"
                 android:paddingBottom="12dp"
                 android:text="@string/this_knit"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:textColor="?attr/textcolor"/>
         </LinearLayout>
     </ScrollView>
 

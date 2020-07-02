@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/backgroundcolor"
+    >
     <item
         android:enabled="true"
         android:title="@string/new_note"
         android:id="@+id/main_create_note"
         android:icon="@android:drawable/ic_menu_add"
         android:orderInCategory="0"
-        app:showAsAction="always" />
+        app:showAsAction="always"
+        android:textColor="?attr/textcolor"/>
 </menu>
