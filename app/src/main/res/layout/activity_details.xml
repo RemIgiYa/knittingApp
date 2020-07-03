@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="api.PatternActivity">
+
+    <TextView
+        android:id="@+id/pattern_name"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:hint="Name of pattern"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pattern_code"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:hint="Product code"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pattern_link"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:focusable="true"
+        android:hint="Pattern download link"
+        android:linksClickable="true"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/expire_date"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Expires in"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

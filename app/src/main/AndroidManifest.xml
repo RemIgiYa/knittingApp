@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".api.PatternActivity"></activity>
         <activity android:name=".Pattern_AbbKey_Screen"></activity>
         <activity android:name=".Yarn_Collection_Screen" />
         <activity android:name=".Additional_Materials_Screen" />
