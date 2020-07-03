@@ -29,13 +29,13 @@
     <string name="clear_items">Clear Items</string>
     <string name="sort">sort</string>
     <string name="counter">0</string>
-    <string name="about"> This app was made as a project for a 3rd year college class "Business Application Development". \App made by: Ioana Avram and Remigija Vindasiute </string>
+    <string name="about"> This app was made as a project for a 3rd year college class "'Business Application Development'". \App made by: Ioana Avram and Remigija Vindasiute </string>
     <string name="about_helpTitle"> About - Help page </string>
-    <string name="help"> The list of full functionalities of the app and where to find them: \nThe Api can be found by clicking on the "pdfs" button on main page, then choosing the "Ravelry" option. choosing the "local" option will load pdfs you already have on your device.
-    \nclicking on the "projects" tab on the main page will allow you to make notes, and you\'ll also find stitch-row counters there.
-    \nThe "video tutorials" tab will lead you to find some tutorials relating to the basics of knitting.
-    \n The "Additional Materials" tab is where you would find an option to go and look up the pattern abbreviation key, or an option to make a list/collection of the yarns you own.
-    \nThe "contact" page is for when you might want to send us a message regarding any issues.
-    \nLastly, the "About/Help" page is where you will find some information about the app and where to find specific things.</string>
+    <string name="help"> The list of full functionalities of the app and where to find them: \nThe Api can be found by clicking on the "'pdfs'" button on main page, then choosing the "'Ravelry'" option. choosing the "'local'" option will load pdfs you already have on your device.
+    \nclicking on the "'projects'" tab on the main page will allow you to make notes, and you"'"ll also find stitch-row counters there.
+    \nThe "'video tutorials'" tab will lead you to find some tutorials relating to the basics of knitting.
+    \n The "'Additional Materials'" tab is where you"'"d find an option to go and look up the pattern abbreviation key, or an option to make a list/collection of the yarns you own.
+    \nThe "'contact'" page is for when you might want to send us a message regarding any issues.
+    \nLastly, the "'About/Help'" page is where you"'"ll find some information about the app and where to find specific things.</string>
 
 </resources>

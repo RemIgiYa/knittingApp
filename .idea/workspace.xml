@@ -12,8 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7c97229a-263b-440c-8102-f96d5d226310" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ann.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ann.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
@@ -248,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593108845740</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="android studio wouldnt accept single quotes, changed the strings to double quotes">
+      <created>1593784648528</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593784648528</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,7 +278,8 @@
     <MESSAGE value="added the note features again because it didnt add" />
     <MESSAGE value="first row counter" />
     <MESSAGE value="rest of the counters" />
-    <option name="LAST_COMMIT_MESSAGE" value="rest of the counters" />
+    <MESSAGE value="android studio wouldnt accept single quotes, changed the strings to double quotes" />
+    <option name="LAST_COMMIT_MESSAGE" value="android studio wouldnt accept single quotes, changed the strings to double quotes" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -297,10 +303,10 @@
       <screen x="0" y="30" width="1366" height="714" />
     </state>
     <state x="541" y="204" width="280" height="366" key="AndroidCreateXmlResourceDialog/0.30.1366.714@0.30.1366.714" timestamp="1593100657351" />
-    <state x="10" y="30" width="1341" height="711" key="CommitChangelistDialog2" timestamp="1593108845380">
+    <state x="10" y="30" width="1341" height="711" key="CommitChangelistDialog2" timestamp="1593784648303">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
-    <state x="10" y="30" width="1341" height="711" key="CommitChangelistDialog2/0.30.1366.714@0.30.1366.714" timestamp="1593108845380" />
+    <state x="10" y="30" width="1341" height="711" key="CommitChangelistDialog2/0.30.1366.714@0.30.1366.714" timestamp="1593784648303" />
     <state x="466" y="146" width="430" height="481" key="FileChooserDialogImpl" timestamp="1593099781840">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
@@ -337,6 +343,10 @@
       <screen x="0" y="30" width="1366" height="714" />
     </state>
     <state width="1320" height="210" key="GridCell.Tab.1.right/0.30.1366.714@0.30.1366.714" timestamp="1591888845543" />
+    <state x="266" y="134" width="830" height="505" key="IDE.errors.dialog" timestamp="1593784676491">
+      <screen x="0" y="30" width="1366" height="714" />
+    </state>
+    <state x="266" y="134" width="830" height="505" key="IDE.errors.dialog/0.30.1366.714@0.30.1366.714" timestamp="1593784676491" />
     <state x="262" y="87" width="1098" height="598" key="MergeDialog" timestamp="1593090642106">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
@@ -345,10 +355,10 @@
       <screen x="0" y="30" width="1366" height="714" />
     </state>
     <state x="396" y="107" width="834" height="560" key="MultipleFileMergeDialog/0.30.1366.714@0.30.1366.714" timestamp="1593090642117" />
-    <state x="278" y="124" width="806" height="525" key="Vcs.Push.Dialog.v2" timestamp="1593108854226">
+    <state x="278" y="124" width="806" height="525" key="Vcs.Push.Dialog.v2" timestamp="1593784665246">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
-    <state x="278" y="124" width="806" height="525" key="Vcs.Push.Dialog.v2/0.30.1366.714@0.30.1366.714" timestamp="1593108854226" />
+    <state x="278" y="124" width="806" height="525" key="Vcs.Push.Dialog.v2/0.30.1366.714@0.30.1366.714" timestamp="1593784665246" />
     <state x="376" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1593109818694">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
