@@ -153,7 +153,7 @@ public class Ravelry_Screen extends AppCompatActivity {
                         Log.d("Yay", " yay!! it worked");
                         ArrayList library_array = new ArrayList<>(response.body().getVolumes());
 
-                        //listView.setAdapter(new VolumeAdapter(MainActivity.this, library_array));
+
                         ArrayList values1 = library_array;
 
                         String authorName = "";
@@ -165,27 +165,31 @@ public class Ravelry_Screen extends AppCompatActivity {
                             authorName = item.getAuthorName();
                             volumeId = item.getId();
 
+                            if (library_array.isEmpty()) {
+                                Toast.makeText(Ravelry_Screen.this, "You dont have any downloadable patterns", Toast.LENGTH_SHORT).show();
+                            } else {
 
-                            listView.setAdapter(new VolumeAdapter(Ravelry_Screen.this, values1));
+                                listView.setAdapter(new VolumeAdapter(Ravelry_Screen.this, values1));
 
-                            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                                @Override
-                                public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-
-
-                                    Integer patternVolume = ((Volume) listView.getItemAtPosition(position)).getId();
-                                    String tokens = token.accessToken;
-                                    Log.d("Pattern id", String.valueOf(patternVolume));
-                                    Intent viewPattern = new Intent(getApplicationContext(), PatternActivity.class);
-                                    viewPattern.putExtra("heres_token", tokens);
-                                    viewPattern.putExtra("pattern_file", patternVolume);
-
-                                    startActivity(viewPattern);
-
-                                }
-                            });
+                                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                                    @Override
+                                    public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
 
 
+                                        Integer patternVolume = ((Volume) listView.getItemAtPosition(position)).getId();
+                                        String tokens = token.accessToken;
+                                        Log.d("Pattern id", String.valueOf(patternVolume));
+                                        Intent viewPattern = new Intent(getApplicationContext(), PatternActivity.class);
+                                        viewPattern.putExtra("heres_token", tokens);
+                                        viewPattern.putExtra("pattern_file", patternVolume);
+
+                                        startActivity(viewPattern);
+
+                                    }
+                                });
+
+
+                            }
                         }
 
 
