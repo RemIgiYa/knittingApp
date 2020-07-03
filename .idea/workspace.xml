@@ -12,8 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7c97229a-263b-440c-8102-f96d5d226310" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ann.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ann.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/note_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/note_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,10 +285,10 @@
       <screen x="0" y="30" width="1366" height="714" />
     </state>
     <state x="416" y="138" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1366.714@0.30.1366.714" timestamp="1593092591615" />
-    <state x="431" y="246" width="500" height="319" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1593092681222">
+    <state x="431" y="246" width="500" height="319" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1593784553566">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
-    <state x="431" y="246" width="500" height="319" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.30.1366.714@0.30.1366.714" timestamp="1593092681222" />
+    <state x="431" y="246" width="500" height="319" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.30.1366.714@0.30.1366.714" timestamp="1593784553566" />
     <state x="266" y="146" width="830" height="481" key="AndroidCreateResourceFileDialog" timestamp="1591721279283">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
@@ -351,9 +353,9 @@
       <screen x="0" y="30" width="1366" height="714" />
     </state>
     <state x="376" y="216" key="com.intellij.ide.util.TipDialog/0.30.1366.714@0.30.1366.714" timestamp="1593109818694" />
-    <state x="406" y="182" width="553" height="409" key="git4idea.merge.GitPullDialog" timestamp="1593108865448">
+    <state x="406" y="182" width="566" height="409" key="git4idea.merge.GitPullDialog" timestamp="1593783392371">
       <screen x="0" y="30" width="1366" height="714" />
     </state>
-    <state x="406" y="182" width="553" height="409" key="git4idea.merge.GitPullDialog/0.30.1366.714@0.30.1366.714" timestamp="1593108865448" />
+    <state x="406" y="182" width="566" height="409" key="git4idea.merge.GitPullDialog/0.30.1366.714@0.30.1366.714" timestamp="1593783392371" />
   </component>
 </project>
